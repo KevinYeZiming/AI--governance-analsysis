@@ -219,24 +219,21 @@ class NarrativeAnalysisConfig:
         """初始化路径配置"""
         # ========== 数据路径配置 ==========
         # 元数据路径
-        self.metadata_dir = Path("/Volumes/ZimingYe/A_project/12月数据采集汇总/数据标注/1226标注结果")
+        self.metadata_dir = Path("")
         
         # 数据源路径
-        self.agora_fulltext_dir = Path("/Volumes/ZimingYe/A_project/12月数据采集汇总/translated_data/fulltext")
-        self.original_data_dir = Path("/Volumes/ZimingYe/A_project/12月数据采集汇总/translated_data/DATA")
+        self.agora_fulltext_dir = Path("")
+        self.original_data_dir = Path("")
         
         # 输出目录
-        self.base_output_dir = Path("/Volumes/ZimingYe/A_project/Agroa数据汇总分析/output")
+        self.base_output_dir = Path("")
         
         # 停用词路径
         self.stopwords_paths = [
-            "/Users/ziming_ye/Downloads/stopwords-iso.json",
-            "/Users/ziming_ye/Python/hit_stopwords.txt",
-            "/Users/ziming_ye/Python/cn_all_stopwords.txt"
         ]
         
         # 模型路径
-        self.embedding_model_path = '/Volumes/ZimingYe/Models'
+        self.embedding_model_path = ''
     
     def _init_filters(self):
         """初始化数据筛选配置"""
