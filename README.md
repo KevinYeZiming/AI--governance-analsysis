@@ -1,7 +1,9 @@
 # Narrative & Semantic Network Analysis System
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 A comprehensive analysis system for policy documents that combines narrative analysis, structural topic modeling, and semantic network analysis with advanced visualization capabilities.
+
 **叙事分析与语义网络分析系统** - 面向政策文档的综合分析平台，集成叙事分析、结构主题建模、语义网络分析与高级可视化功能。
 ---
 ## 📋 Table of Contents
